@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+html {
+    font-family: Poppins;
+    font-size: 10pt;
+    background-color: grey;
+    background-image: url("stardust.png");
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+.project {
+    border-top: 1px solid;
+    padding: 5px;
+    margin: auto;
+}
+
+.project img {
+    width: 100px;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+header img {
+    width: 40px;
+}
+
+a {
+    color: black;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        width: 100%;
+        padding: 0px;
+    }
+
+    html {
+        font-size: 6pt;
+    }
+}
