@@ -3,8 +3,8 @@ body {
     width: 50%;
     margin: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8)
-    style: text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
 }
 
 html {
@@ -37,6 +37,10 @@ h1 {
 main {
     width: 70%;
     margin: auto;
+}
+
+p {
+    text-align: justify;
 }
 
 header img {
