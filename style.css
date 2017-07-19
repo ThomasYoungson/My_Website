@@ -4,6 +4,7 @@ body {
     margin: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8)
+    style: text-align: justify;
 }
 
 html {
@@ -22,10 +23,15 @@ h1 {
     border-top: 1px solid;
     padding: 5px;
     margin: auto;
+    padding-bottom: 40px;
 }
 
 .project img {
     width: 65%
+}
+
+#octagonImage {
+    width: 20vmin;
 }
 
 main {
@@ -42,9 +48,14 @@ a {
     padding: 5px;
 }
 
+footer {
+    padding-top: 10%;
+}
+
 @media only screen and (max-width: 650px) {
     body {
         width: 100%;
-        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
