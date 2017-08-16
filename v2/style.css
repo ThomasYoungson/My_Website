@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+    background-image: url("stardust.png");
+    background-attachment: fixed;
+    color: #95989A;
+}
+
+header {
+    padding-top: 60px;
+}
+
+a {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 14pt;
+    color: white;
+}
+
+h3 {
+    font-size: 10pt;
+    color: #95989A;
+}
+
+.tile:nth-child(even) {
+    margin-top: 60px;
+    margin-bottom: -60px;
+    height: 65%;
+}
+
+.nickiyoungson-cut-out {
+    clip-path: polygon(0 30%, 0 0, 100% 0, 100% 100%, 0 100%, 0 70%, 20% 60%, 20% 40%);
+}
+
+.col {
+    padding: 20px;
+    margin: 10px;
+}
