@@ -11,6 +11,7 @@ header {
 
 a {
     padding: 30px;
+    color: #95989A;
 }
 
 h2 {
@@ -19,8 +20,18 @@ h2 {
 }
 
 h3 {
+    color: white;
+}
+
+h4 {
     font-size: 10pt;
     color: #95989A;
+}
+
+.tile {
+    border-radius: 0px 20px 0px 20px;
+    opacity: 1;
+    box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
 }
 
 .tile:nth-child(even) {
@@ -29,11 +40,65 @@ h3 {
     height: 65%;
 }
 
+
+/*
 .nickiyoungson-cut-out {
     clip-path: polygon(0 30%, 0 0, 100% 0, 100% 100%, 0 100%, 0 70%, 20% 60%, 20% 40%);
+}
+
+.budget-cut-out {
+    clip-path: polygon(100% 0, 100% 61%, 90% 66%, 86% 71%, 86% 77%, 91% 83%, 100% 87%, 100% 100%, 0 100%, 0 0);
+}
+*/
+
+.image-card-layout {
+    width: 80%;
+    height: inherit;
+    margin: auto;
+}
+
+.flower {
+    width: 70%;
+    margin-top: 45%;
 }
 
 .col {
     padding: 20px;
     margin: 10px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.tile:hover .middle {
+    opacity: 1;
+}
+
+.tile:hover .image-card-layout {
+    transition: 0.5s ease;
+    filter: blur(5px) brightness(0.45);
+}
+
+.text {
+    color: white;
+    font-size: 10pt;
+}
+
+.fa-github {
+    color: white;
+}
+
+.text li {
+    list-style: none;
+}
+
+.text ul {
+    padding: 0;
 }
