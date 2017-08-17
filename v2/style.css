@@ -1,12 +1,16 @@
+html {
+    box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
+}
+
 body {
     background-color: grey;
-    background-image: url("stardust.png");
+    background-image: url("images/stardust.png");
     background-attachment: fixed;
     color: #95989A;
 }
 
 header {
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 a {
@@ -39,17 +43,6 @@ h4 {
     margin-bottom: -60px;
     height: 65%;
 }
-
-
-/*
-.nickiyoungson-cut-out {
-    clip-path: polygon(0 30%, 0 0, 100% 0, 100% 100%, 0 100%, 0 70%, 20% 60%, 20% 40%);
-}
-
-.budget-cut-out {
-    clip-path: polygon(100% 0, 100% 61%, 90% 66%, 86% 71%, 86% 77%, 91% 83%, 100% 87%, 100% 100%, 0 100%, 0 0);
-}
-*/
 
 .image-card-layout {
     width: 80%;
