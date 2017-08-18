@@ -95,3 +95,7 @@ h4 {
 .text ul {
     padding: 0;
 }
+
+.github a {
+    color: white;
+}
