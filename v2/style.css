@@ -99,3 +99,12 @@ h4 {
 .github a {
     color: white;
 }
+
+.tools ul {
+    list-style-type: none;
+}
+
+.tools {
+    margin: auto;
+    width: max-content;
+}
