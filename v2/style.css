@@ -38,12 +38,6 @@ h4 {
     box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
 }
 
-.tile:nth-child(even) {
-    margin-top: 60px;
-    margin-bottom: -60px;
-    height: 65%;
-}
-
 .image-card-layout {
     width: 80%;
     height: inherit;
