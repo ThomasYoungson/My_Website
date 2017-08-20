@@ -14,7 +14,6 @@ header {
 }
 
 a {
-    padding: 30px;
     color: #95989A;
 }
 
@@ -54,28 +53,15 @@ h4 {
     margin: 10px;
 }
 
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-}
-
-.tile:hover .middle {
-    opacity: 1;
-}
-
-.tile:hover .image-card-layout {
-    transition: 0.5s ease;
-    filter: blur(5px) brightness(0.45);
-}
-
 .text {
     color: white;
     font-size: 10pt;
+}
+
+.card {
+    margin: 10px;
+    background-color: black;
+    width: auto;
 }
 
 .fa-github {
@@ -92,6 +78,7 @@ h4 {
 
 .github a {
     color: white;
+    padding: 0;
 }
 
 .tools ul {
@@ -101,4 +88,13 @@ h4 {
 .tools {
     margin: auto;
     width: max-content;
+}
+
+.card-img-top {
+    width: 75%;
+    margin: auto;
+}
+
+.card {
+    width: 20rem;
 }
