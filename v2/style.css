@@ -7,6 +7,7 @@ body {
     background-image: url("images/stardust.png");
     background-attachment: fixed;
     color: #95989A;
+    font-size: 10pt;
 }
 
 header {
@@ -31,10 +32,17 @@ h4 {
     color: #95989A;
 }
 
-.tile {
-    border-radius: 0px 20px 0px 20px;
-    opacity: 1;
-    box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
+ul {
+    list-style-type: none;
+}
+
+.text ul {
+    padding: 0;
+}
+
+.github a {
+    color: #95989A;
+    padding: 0;
 }
 
 .image-card-layout {
@@ -43,46 +51,9 @@ h4 {
     margin: auto;
 }
 
-.flower {
-    width: 70%;
-    margin-top: 45%;
-}
-
 .col {
     padding: 20px;
     margin: 10px;
-}
-
-.text {
-    color: white;
-    font-size: 10pt;
-}
-
-.card {
-    margin: 10px;
-    background-color: black;
-    width: auto;
-}
-
-.fa-github {
-    color: white;
-}
-
-.text li {
-    list-style: none;
-}
-
-.text ul {
-    padding: 0;
-}
-
-.github a {
-    color: white;
-    padding: 0;
-}
-
-.tools ul {
-    list-style-type: none;
 }
 
 .tools {
@@ -92,9 +63,12 @@ h4 {
 
 .card-img-top {
     width: 75%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 .card {
+    margin: 10px;
     width: 20rem;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
 }
