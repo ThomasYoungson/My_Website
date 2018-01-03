@@ -69,7 +69,7 @@ ul {
 }
 
 .card-img-top {
-    width: 75%;
+    width: 65%;
     margin: 5% auto;
 }
 
@@ -78,4 +78,8 @@ ul {
     width: 20rem;
     border-radius: 0px 20px 0px 20px;
     box-shadow: inset -7px 4px 106px -20px rgba(0, 0, 0, 0.55);
+}
+
+.contact {
+    padding: 10px;
 }
